@@ -46,7 +46,7 @@ body {
   height: 142px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  background-image: url("./images/bg-pattern-card.svg");
+  background-image: url("../images/bg-pattern-card.svg");
 }
 
 .container .card .card__center {
