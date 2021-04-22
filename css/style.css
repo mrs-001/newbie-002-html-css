@@ -20,7 +20,7 @@ body {
   width: 100vw;
   min-height: 100vh;
   background-color: #19a1ad;
-  background-image: url("/images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
   background-repeat: no-repeat, no-repeat;
   background-position: bottom 45vh right 48vw, top 40vh left 52vw;
   display: -webkit-box;
@@ -46,7 +46,7 @@ body {
   height: 142px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  background-image: url("/images/bg-pattern-card.svg");
+  background-image: url("../images/bg-pattern-card.svg");
 }
 
 .container .card .card__center {
