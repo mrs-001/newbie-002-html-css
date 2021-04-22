@@ -1,0 +1,109 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-size: 18px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #19a1ad;
+  background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom 45vh right 48vw, top 40vh left 52vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .card {
+  width: 324px;
+  height: 374px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.container .card .card__top {
+  width: 100%;
+  height: 142px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-image: url("/images/bg-pattern-card.svg");
+}
+
+.container .card .card__center {
+  width: 100%;
+  height: 146px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .card .card__center .photo {
+  width: 98px;
+  height: 98px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  margin-top: calc(-98px/2 - 5px / 2);
+}
+
+.container .card .card__center h2 {
+  margin: 0px;
+  margin-top: 28px;
+}
+
+.container .card .card__center h2 span {
+  color: #969696;
+  font-weight: 400;
+}
+
+.container .card .card__center p {
+  margin: 0px;
+  margin-top: 14px;
+  color: #969696;
+  font-weight: 400;
+}
+
+.container .card .card__bottom {
+  width: 100%;
+  height: 86px;
+  text-align: center;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container .card div .text-tiny {
+  color: #969696;
+  font-size: 12px;
+  font-weight: 200;
+}
+/*# sourceMappingURL=style.css.map */
